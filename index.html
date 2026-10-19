@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eleven Brothers Brand is a youth-driven brotherhood committed to community outreach, peacebuilding, mentorship and youth empowerment in Archers, Samburu County, Kenya.">
+  <meta name="theme-color" content="#17100f">
+  <title>Eleven Brothers Brand | Unity. Empowerment. Community Transformation.</title>
+  <link rel="icon" type="image/png" href="assets/eleven-brothers-logo.png">
+  <style>
+    :root{--ink:#191312;--dark:#211513;--red:#9e1b22;--gold:#d9a441;--cream:#fffaf2;--muted:#6b625c;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    .topbar{background:#140f0e;color:#fff;font-size:.88rem;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #00000012}.nav{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;letter-spacing:.04em}.brand img{width:58px;height:58px;object-fit:contain;border-radius:50%}.brand span{line-height:1.15}.brand small{display:block;font-size:.68rem;color:var(--red);letter-spacing:.13em;margin-top:5px}
+    nav{display:flex;align-items:center;gap:21px;flex-wrap:wrap}nav a{text-decoration:none;font-size:.92rem;font-weight:700}nav a:hover{color:var(--red)}
+    .btn{display:inline-block;text-decoration:none;border:0;border-radius:5px;padding:12px 18px;font-weight:800;background:var(--gold);color:#201511;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(.96)}.btn.outline{background:transparent;border:1px solid #ffffffb8;color:#fff}.btn.dark{background:var(--red);color:#fff}
+    .hero{background:linear-gradient(100deg,rgba(20,13,12,.94),rgba(56,20,17,.76)),url('assets/eleven-brothers-logo.png') center/cover no-repeat;color:#fff;padding:86px 0 80px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:44px}.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.2em;color:var(--gold);font-weight:900}
+    h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.02;margin:14px 0 20px;letter-spacing:-.04em}h1 span{color:var(--gold)}.hero p{font-size:1.13rem;max-width:650px;color:#f3e9e2}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
+    .hero-logo{background:#fff;padding:14px;border-radius:12px;box-shadow:0 20px 55px #0006;max-width:390px;margin:auto}.hero-logo img{display:block;width:100%;height:auto}
+    section{padding:72px 0}.section-head{text-align:center;max-width:740px;margin:0 auto 36px}.section-head h2{font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.1;margin:9px 0 12px}.section-head p{color:var(--muted);margin:0}
+    .values{background:var(--cream)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:26px;background:#fff;border:1px solid #eee3d8;border-radius:9px;box-shadow:0 8px 24px #2a171008}.icon{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;background:#f8ead0;font-size:1.35rem}.card h3{margin:16px 0 8px;font-size:1.2rem}.card p{color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.about-panel{background:var(--dark);color:#fff;padding:32px;border-radius:10px;border-left:5px solid var(--gold)}.about-panel h3{color:var(--gold);margin-top:0}.about-panel p{color:#f3e9e2}.checklist{padding:0;list-style:none}.checklist li{padding:8px 0 8px 28px;position:relative}.checklist li:before{content:"✓";position:absolute;left:0;color:var(--red);font-weight:900}
+    .projects{background:#f8f5f0}.project-card{border-radius:9px;overflow:hidden;background:#fff;border:1px solid #e9e1d8}.project-top{background:linear-gradient(135deg,#8f1b20,#2b1714);color:#fff;padding:24px}.project-top span{font-size:1.7rem}.project-body{padding:22px}.project-body h3{margin:0 0 8px}.project-body p{margin:0;color:var(--muted)}.note{font-size:.9rem;color:#6b625c;margin-top:22px;text-align:center}
+    .partner{background:linear-gradient(110deg,#241513,#48191b);color:#fff;text-align:center}.partner .section-head p{color:#eaded8}.partner .section-head h2{color:#fff}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.contact-info{background:var(--cream);padding:28px;border-radius:9px}.contact-info h3{margin-top:0}.contact-item{margin:18px 0}.contact-item strong{display:block;font-size:.83rem;text-transform:uppercase;letter-spacing:.08em;color:var(--red)}.contact-item a{text-decoration:none;overflow-wrap:anywhere}.contact-form{display:grid;gap:14px}.contact-form label{font-weight:700;font-size:.9rem}.contact-form input,.contact-form textarea{width:100%;padding:12px;border:1px solid #d9d0c8;border-radius:5px;font:inherit;margin-top:5px}.contact-form textarea{min-height:130px;resize:vertical}.form-note{font-size:.82rem;color:var(--muted);margin:0}
+    footer{background:#140f0e;color:#eee;padding:28px 0}.footer-row{display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap}.footer-row p{margin:0;font-size:.9rem;color:#d0c5bf}.footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer-links a{font-size:.9rem;text-decoration:none;color:#fff}
+    @media(max-width:800px){.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:58px 0}.hero-logo{max-width:300px}.cards{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav{gap:13px}.about-grid{gap:25px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><span>Archers, Samburu East, Samburu County, Kenya</span><span><a href="mailto:elevenbrothers.brand@gmail.com">elevenbrothers.brand@gmail.com</a></span></div></div>
+  <header><div class="wrap nav">
+    <a class="brand" href="#home"><img src="assets/eleven-brothers-logo.png" alt="Eleven Brothers Brand logo"><span>ELEVEN BROTHERS<small>BRAND</small></span></a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">Our Focus</a><a href="#projects">Projects</a><a href="#partnerships">Partnerships</a><a href="#contact">Contact</a></nav>
+  </div></header>
+  <main>
+    <section class="hero" id="home"><div class="wrap hero-grid"><div>
+      <div class="eyebrow">Brotherhood with purpose</div>
+      <h1>Unity. <span>Empowerment.</span><br>Community Transformation.</h1>
+      <p>Eleven Brothers Brand is a youth-driven initiative committed to strengthening brotherhood, empowering young people, promoting peace, and serving our community through meaningful action.</p>
+      <div class="actions"><a class="btn" href="#about">Discover Our Mission</a><a class="btn outline" href="#contact">Connect With Us</a></div>
+    </div><div class="hero-logo"><img src="assets/eleven-brothers-logo.png" alt="Eleven Brothers Brand Samburu-inspired logo"></div></div></section>
+    <section class="values" id="work"><div class="wrap"><div class="section-head"><div class="eyebrow">What drives us</div><h2>Building stronger communities together</h2><p>We believe that collective effort, responsible leadership, and service can create opportunities and lasting positive change.</p></div>
+      <div class="cards">
+        <article class="card"><div class="icon">🤝</div><h3>Community Outreach</h3><p>Supporting vulnerable community members through organized, respectful, and practical acts of service.</p></article>
+        <article class="card"><div class="icon">🕊️</div><h3>Peacebuilding</h3><p>Encouraging dialogue, understanding, cooperation, and peaceful relationships across our communities.</p></article>
+        <article class="card"><div class="icon">🌱</div><h3>Youth Empowerment</h3><p>Promoting mentorship, teamwork, leadership, and opportunities for young people to grow.</p></article>
+      </div></div></section>
+    <section id="about"><div class="wrap about-grid"><div><div class="eyebrow">Who we are</div><h2 style="font-size:clamp(2rem,4vw,2.8rem);line-height:1.1">Brotherhood that creates impact</h2><p>Eleven Brothers Brand brings young men together around a shared commitment to mutual support, constructive leadership, enterprise, and community service. Our goal is to turn unity into practical action that benefits people and strengthens the community.</p><h3>Our core values</h3><ul class="checklist"><li>Unity and mutual respect</li><li>Integrity and accountability</li><li>Service and compassion</li><li>Peaceful cooperation</li><li>Responsible leadership</li></ul></div>
+      <div class="about-panel"><h3>Our Vision</h3><p>To become a leading brotherhood brand that transforms lives through successful businesses and impactful community service.</p><hr style="border:0;border-top:1px solid #ffffff35;margin:24px 0"><h3>Our Mission</h3><p>To unite as brothers, build sustainable business enterprises, empower one another economically, and give back through outreach, mentorship, and service.</p></div></div></section>
+    <section class="projects" id="projects"><div class="wrap"><div class="section-head"><div class="eyebrow">Our work</div><h2>Turning shared values into action</h2><p>These are our focus areas. We will publish dated activity reports and photographs as projects are completed and verified.</p></div>
+      <div class="cards">
+        <article class="project-card"><div class="project-top"><span>❤️</span><h3>Care & Community Support</h3></div><div class="project-body"><p>Community visits and practical support for vulnerable people, carried out with dignity and respect.</p></div></article>
+        <article class="project-card"><div class="project-top"><span>🕊️</span><h3>Peace & Partnership</h3></div><div class="project-body"><p>Building relationships with community leaders and partners to encourage peace and cooperation.</p></div></article>
+        <article class="project-card"><div class="project-top"><span>🚀</span><h3>Youth & Enterprise</h3></div><div class="project-body"><p>Encouraging teamwork, mentorship, skills development, and sustainable business ideas.</p></div></article>
+      </div><p class="note">We aim to keep our public updates accurate and transparent. Project details, partner names, and impact figures will be published only when confirmed.</p>
+    </div></section>
+    <section class="partner" id="partnerships"><div class="wrap"><div class="section-head"><div class="eyebrow">Work with us</div><h2>Let’s create meaningful community impact</h2><p>We welcome enquiries from community groups, institutions, businesses, and organizations interested in peacebuilding, youth empowerment, mentorship, and community service.</p></div><a class="btn" href="mailto:elevenbrothers.brand@gmail.com?subject=Partnership%20Enquiry%20-%20Eleven%20Brothers%20Brand">Discuss a Partnership</a></div></section>
+    <section id="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Get in touch</div><h2>Contact Eleven Brothers Brand</h2><p>For community activities, collaboration, or general enquiries, contact the team using the details below.</p></div>
+      <div class="contact-grid"><div class="contact-info"><h3>Official contact details</h3>
+        <div class="contact-item"><strong>Phone</strong><a href="tel:+254714250718">0714 250 718</a><br><a href="tel:+254794113588">+254 794 113 588</a></div>
+        <div class="contact-item"><strong>Email</strong><a href="mailto:elevenbrothers.brand@gmail.com">elevenbrothers.brand@gmail.com</a></div>
+        <div class="contact-item"><strong>Meeting venue</strong>Steto Restaurant, Archers</div>
+        <div class="contact-item"><strong>Location</strong>Archers, Waso Ward, Samburu East, Samburu County, Kenya</div>
+      </div>
+      <form class="contact-form" id="contactForm"><label>Your name<input name="name" required autocomplete="name" placeholder="Enter your name"></label><label>Your email<input name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label><label>Subject<input name="subject" required placeholder="How can we help?"></label><label>Message<textarea name="message" required placeholder="Write your message here"></textarea></label><button class="btn dark" type="submit">Prepare Email Message</button><p class="form-note">This form opens your email app with the message prepared; it does not send or store your information on this website.</p></form>
+      </div></div></section>
+  </main>
+  <footer><div class="wrap footer-row"><p>© <span id="year"></span> Eleven Brothers Brand. All rights reserved.</p><div class="footer-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="mailto:elevenbrothers.brand@gmail.com">Email us</a></div><p>Unity • Empowerment • Service</p></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const d = new FormData(this);
+      const body = `Name: ${d.get('name')}%0D%0AEmail: ${d.get('email')}%0D%0A%0D%0A${d.get('message')}`;
+      const subject = encodeURIComponent(d.get('subject'));
+      window.location.href = `mailto:elevenbrothers.brand@gmail.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>

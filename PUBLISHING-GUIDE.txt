@@ -1,0 +1,34 @@
+ELEVEN BROTHERS BRAND — WEBSITE STARTER
+=======================================
+
+Files
+-----
+- index.html: the responsive website
+- assets/eleven-brothers-logo.png: supplied logo
+
+Preview locally
+---------------
+1. Extract the ZIP file.
+2. Open the extracted folder.
+3. Double-click index.html to preview in a browser.
+
+Free publishing option: GitHub Pages
+------------------------------------
+Google Sites does not directly host uploaded custom HTML/CSS files. For this prepared website, GitHub Pages is a free static-hosting option.
+
+1. Create/sign in to a GitHub account at https://github.com/
+2. Create a new public repository named eleven-brothers-brand-website.
+3. Upload index.html and the assets folder (keep the folder structure unchanged).
+4. In the repository, open Settings -> Pages.
+5. Under Build and deployment, choose Deploy from a branch.
+6. Select the main branch and /(root), then Save.
+7. Wait for the published Pages address to appear in Settings -> Pages. It will usually look like:
+   https://YOUR-USERNAME.github.io/eleven-brothers-brand-website/
+
+Important notes
+---------------
+- This is a static website; the contact form prepares an email using the visitor's email app. It does not store submissions or send them through a server.
+- A custom domain is optional and can be added later.
+- Confirm that the group is authorized to publish the phone numbers and email address.
+- Add registration details only after official registration is confirmed. Do not publish unverified registration claims.
+- Before publishing, review names, activity reports, photos, and any partner references for accuracy and consent.
